@@ -21,7 +21,7 @@ export default function WelcomeScreen() {
         setTimeout(()=> navigation.navigate('Home'), 2500)
     },[])
   return (
-    <View className="flex-1 justify-center items-center space-y-10 bg-amber-500">
+    <View className="flex-1 justify-center items-center space-y-10" style={{backgroundColor:'#FFB534'}}>
       <StatusBar style="light" />
 
       {/* logo image with rings */}
@@ -35,10 +35,10 @@ export default function WelcomeScreen() {
       {/* title and punchline */}
       <View className="flex items-center space-y-2">
         <Text style={{fontSize: hp(7)}} className="font-bold text-white tracking-widest">
-            Foody
+            Catalog
         </Text>
         <Text style={{fontSize: hp(2)}} className="font-medium text-white tracking-widest">
-            Food is always right
+        The Bites Brownies
         </Text>
       </View>
     </View>

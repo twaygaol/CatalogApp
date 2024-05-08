@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReactNativeUI",
-    "slug": "ReactNativeUI",
+    "name": "catalogAPP",
+    "slug": "catalogAPP",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.twaygaol.catalogAPP"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.twaygaol.catalogAPP"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d2f70cd7-ee4f-41e5-8468-84ae97ed4047"
+      }
     }
   }
 }
